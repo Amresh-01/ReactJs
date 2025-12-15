@@ -1,13 +1,18 @@
 import { useState } from "react";
 import React from "react";
 import "./index.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 
 function App() {
   // const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1 className="bg-green-900">Hello everyone12312312</h1>
+      <Header />
+      <Home />
+      <Footer />
     </>
   );
 }
